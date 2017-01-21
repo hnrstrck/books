@@ -1,0 +1,694 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Listening for sounds · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-youtubex/player.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-collapsible-chapters/collapsible-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../community_projects/" />
+    
+    
+    <link rel="prev" href="implement_sound.html" />
+    
+
+    </head>
+    <body>
+        
+  <script>
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  </script>
+  
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                        <b>1.1.</b>
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Getting started</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../getting_started/box_content.html">
+            
+                <a href="../getting_started/box_content.html">
+            
+                    
+                        <b>2.1.</b>
+                    
+                    Content of the box
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../getting_started/arduino_board.html">
+            
+                <a href="../getting_started/arduino_board.html">
+            
+                    
+                        <b>2.2.</b>
+                    
+                    Arduino / Genuino
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../getting_started/software_installation.html">
+            
+                <a href="../getting_started/software_installation.html">
+            
+                    
+                        <b>2.3.</b>
+                    
+                    Software Installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../getting_started/arduino_ide.html">
+            
+                <a href="../getting_started/arduino_ide.html">
+            
+                    
+                        <b>2.4.</b>
+                    
+                    Arduino IDE
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Basics</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../basics/digital_signals.html">
+            
+                <a href="../basics/digital_signals.html">
+            
+                    
+                        <b>3.1.</b>
+                    
+                    Digital Signals
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../basics/analog_signals.html">
+            
+                <a href="../basics/analog_signals.html">
+            
+                    
+                        <b>3.2.</b>
+                    
+                    Analog Signals
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../basics/shields.html">
+            
+                <a href="../basics/shields.html">
+            
+                    
+                        <b>3.3.</b>
+                    
+                    Shields
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.3.1" data-path="../basics/osem_upload.html">
+            
+                <a href="../basics/osem_upload.html">
+            
+                    
+                        <b>3.3.1.</b>
+                    
+                    openSenseMap Upload
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Projects</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="traffic_counter.html">
+            
+                <a href="traffic_counter.html">
+            
+                    
+                        <b>4.1.</b>
+                    
+                    Traffic Counter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="traffic_light.html">
+            
+                <a href="traffic_light.html">
+            
+                    
+                        <b>4.2.</b>
+                    
+                    Traffic Light
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="eco_station/">
+            
+                <a href="eco_station/">
+            
+                    
+                        <b>4.3.</b>
+                    
+                    DIY Eco Station
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.3.1" data-path="eco_station/experiments_with_light.html">
+            
+                <a href="eco_station/experiments_with_light.html">
+            
+                    
+                        <b>4.3.1.</b>
+                    
+                    Experiments with light
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="implement_sound.html">
+            
+                <a href="implement_sound.html">
+            
+                    
+                        <b>4.4.</b>
+                    
+                    Let's implement sound!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="4.5" data-path="listening_for_sounds.html">
+            
+                <a href="listening_for_sounds.html">
+            
+                    
+                        <b>4.5.</b>
+                    
+                    Listening for sounds
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="../community_projects/">
+            
+                <a href="../community_projects/">
+            
+                    
+                        <b>4.6.</b>
+                    
+                    Community Projects
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.6.1" data-path="../community_projects/Tutorial_ArduinoWeatherStation.html">
+            
+                <a href="../community_projects/Tutorial_ArduinoWeatherStation.html">
+            
+                    
+                        <b>4.6.1.</b>
+                    
+                    Mobile Sensor Logger
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.2" data-path="../community_projects/Tutorial_HeatmapCampusDiepenbeek.html">
+            
+                <a href="../community_projects/Tutorial_HeatmapCampusDiepenbeek.html">
+            
+                    
+                        <b>4.6.2.</b>
+                    
+                    Heatmap
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Appendix</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../contributing.html">
+            
+                <a href="../contributing.html">
+            
+                    
+                        <b>5.1.</b>
+                    
+                    Contributing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../downloads.html">
+            
+                <a href="../downloads.html">
+            
+                    
+                        <b>5.2.</b>
+                    
+                    Downloads
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Listening for sounds</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="listening-for-sounds">Listening for sounds</h1>
+<h2 id="goal">Goal</h2>
+<p>In this station, we will learn how to use the microphone.</p>
+<h2 id="materials">Materials</h2>
+<ul>
+<li>Mic Breakout</li>
+</ul>
+<h2 id="basics">Basics</h2>
+<p>The microphone is fit with an amplifier (100x) on the board.
+It requires an operating voltage between 2.7V and 5.5V, and is able to perceive sounds between 58dB and 110dB.</p>
+<h2 id="construction">Construction</h2>
+<p>Consider the graphic below, and build the circuit as shown.</p>
+<p><img src="https://raw.githubusercontent.com/sensebox/resources/master/images/edu/aufbau_station_lauschangriff.png?raw=true" width="500"></p>
+<blockquote>
+<p><strong><em>Note:</em></strong> <em>If your analog Pin <code>A0</code> is already occupied, you can use a different pin. Do not forget to change this in the code.</em></p>
+</blockquote>
+<h2 id="task-1">Task 1</h2>
+<p>Define the pin where your microphone&#x2019;s output rests, as usual. A variable must be defined representing where the values &#x200B;&#x200B;of the microphone are stored:</p>
+<pre><code class="lang-arduino"><span class="hljs-keyword">int</span> mic = A0;
+<span class="hljs-keyword">long</span> micVal = <span class="hljs-number">0</span>; <span class="hljs-comment">// Stores the value of the sound collected by the microphone</span>
+</code></pre>
+<p>Now the serial output must be initialized and the pin <code>mic</code> must be defined as <code>INPUT</code>. We will do this in <code>setup</code>:</p>
+<pre><code class="lang-Arduino"><span class="hljs-keyword">void</span> <span class="hljs-built_in">setup</span>() {
+  <span class="hljs-built_in">Serial</span>.<span class="hljs-built_in">begin</span>(<span class="hljs-number">9600</span>);
+  <span class="hljs-built_in">pinMode</span>(mic, <span class="hljs-literal">INPUT</span>);
+}
+</code></pre>
+<p>We then write a function to read the sound value collected by the microphone:</p>
+<pre><code class="lang-arduino"><span class="hljs-keyword">long</span> getMicVal() {
+  micVal = <span class="hljs-built_in">analogRead</span>(mic);
+  <span class="hljs-built_in">return</span> micVal;
+}
+</code></pre>
+<p>Now you can show the value from the microphone in the Serial Monitor.</p>
+<pre><code class="lang-arduino"><span class="hljs-keyword">void</span> <span class="hljs-built_in">loop</span>() {
+  <span class="hljs-built_in">Serial</span>.<span class="hljs-built_in">print</span>(getMicVal());
+}
+</code></pre>
+<p>You will notice that the output varies around the value of 510.
+Negative values &#x200B;&#x200B;may be returned.
+To improve the readability of the values, we can change them in the function <code>getMicVal()</code>:</p>
+<pre><code class="lang-arduino"><span class="hljs-keyword">long</span> getMicVal() {
+  <span class="hljs-keyword">int</span> period = <span class="hljs-number">3</span>; <span class="hljs-comment">// Averaging three values &#x200B;&#x200B;in order to catch any &apos;outliers&apos;</span>
+  <span class="hljs-keyword">int</span> correction_value = <span class="hljs-number">510</span>;
+  <span class="hljs-built_in">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; period; i++) {
+    <span class="hljs-comment">// Computes the absolute value of the value to intercept negative deflections</span>
+    micVal = micVal + <span class="hljs-built_in">abs</span> (<span class="hljs-built_in">analogRead</span>(mic) - correction_value);
+    <span class="hljs-built_in">delay</span>(<span class="hljs-number">5</span>);
+  }
+  micVal = <span class="hljs-built_in">constrain</span>(<span class="hljs-built_in">abs</span>(micVal / period), <span class="hljs-number">1</span>, <span class="hljs-number">500</span>);
+  <span class="hljs-built_in">return</span> (micVal);
+}
+</code></pre>
+<p>Now you can test out what happens when the sensor is exposed to certain sounds:</p>
+<ul>
+<li>How strong is the amplitude of conversations?</li>
+<li>What happens if you hold the beeper to the microphone?</li>
+<li>And what happens if you breath into the microphone?</li>
+</ul>
+<h2 id="task-2">Task 2</h2>
+<p>Construct a noise operated traffic light using three LEDs.
+The light should turn green when it is quiet, it should turn orange when there&#x2019;s low volume, and finally it should turn red when it is noisy.</p>
+<p><div id="page-footer"><hr><p><span style="color: #666; font-size: 85%;">
+    Made with &#x2665; by the senseBox team at <a href="https://www.uni-muenster.de/Geoinformatics/en/" target="_blank">ifgi</a>, WWU M&#xFC;nster
+</span>
+<span style="color: #666; font-size: 85%; float: right; align: center;">
+    All content is published under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>
+    <img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" align="center">
+</span></p>
+</div></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="implement_sound.html" class="navigation navigation-prev " aria-label="Previous page: Let's implement sound!">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../community_projects/" class="navigation navigation-next " aria-label="Next page: Community Projects">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Listening for sounds","level":"4.5","depth":1,"next":{"title":"Community Projects","level":"4.6","depth":1,"path":"community_projects/README.md","ref":"community_projects/README.md","articles":[{"title":"Mobile Sensor Logger","level":"4.6.1","depth":2,"path":"community_projects/Tutorial_ArduinoWeatherStation.md","ref":"community_projects/Tutorial_ArduinoWeatherStation.md","articles":[]},{"title":"Heatmap","level":"4.6.2","depth":2,"path":"community_projects/Tutorial_HeatmapCampusDiepenbeek.md","ref":"community_projects/Tutorial_HeatmapCampusDiepenbeek.md","articles":[]}]},"previous":{"title":"Let's implement sound!","level":"4.4","depth":1,"path":"projects/implement_sound.md","ref":"projects/implement_sound.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","localized-footer","scramble-mailto","hide-published-with","youtubex","katex","collapsible-chapters","sectionx@git+https://github.com/noerw/gitbook-plugin-sectionx.git#v3.2.0","sitemap-general","scripts"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"piwik":{"URL":"piwik.uni-muenster.de/","siteId":25},"scripts":{"files":["../tawkto.js"]},"search":{},"collapsible-chapters":{},"localized-footer":{"filename":"FOOTER.md"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"hide-published-with":{},"sitemap-general":{"prefix":"https://books.sensebox.de/edu/"},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"scramble-mailto":{"scrambleMethod":"jsFunction"},"sectionx":{"tag":"b"},"highlight":{},"youtubex":{"embedDescription":{"de":"Eingebettetes Video:","default":"Embedded video:"}},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":{"en":"Edit This Page","de":"Seite bearbeiten"},"base":"https://github.com/sensebox/books/tree/master/edu"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"en","gitbook":"*"},"file":{"path":"projects/listening_for_sounds.md","mtime":"2017-01-21T12:30:24.073Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-01-21T12:32:09.113Z"},"basePath":"..","book":{"language":"en"}});
+        });
+    </script>
+</div>
+
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-scramble-mailto/scramble-mailto.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-hide-published-with/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-youtubex/player.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-collapsible-chapters/collapsible-chapters.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-scripts/1485001930766-tawkto.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url> <loc>https://books.sensebox.de/edu/de/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/getting_started/kisteninhalt.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/getting_started/genuino_board.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/getting_started/installation_der_software.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/getting_started/arduino_ide.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/grundlagen/digitale_signale.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/grundlagen/analoge_signale.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/grundlagen/variablen.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/grundlagen/der_serielle_monitor.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/grundlagen/ifelse-bedingung.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/grundlagen/schleifen.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/grundlagen/software_libraries.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/grundlagen/der_serielle_datenbus.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/grundlagen/kommentare.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/grundlagen/shields.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/grundlagen/uhr.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/grundlagen/datenlogger.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/grundlagen/osem_upload.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/projekte/verkehrszaehler.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/projekte/ampelButton.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/projekte/diy_umweltstation/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/projekte/diy_umweltstation/experimente_mit_Licht.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/projekte/diy_umweltstation/uv_sensor.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/projekte/diy_umweltstation/temp_und_luftfeuchte.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/projekte/diy_umweltstation/luftdruck.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/projekte/diy_umweltstation/osem.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/projekte/summer.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/projekte/mikrofon.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/projekte/webserver.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/projekte/rgb_led.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/projekte/randomBlink.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/community_projekte/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/community_projekte/rauchmelder.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/community_projekte/led_clock.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/downloads.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/eigene_projekte.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/faq.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://books.sensebox.de/edu/de/GLOSSARY.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+</urlset>
