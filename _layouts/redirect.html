@@ -1,11 +1,11 @@
-{% assign book = page.url | split: '/' | pop | last %}
-{% assign newpath = page.url | remove_first: '/' | remove_first: book %}
-{% assign redir_to = 'https://' | append: book | append: '.' | append: site.new_domain | append: newpath %}
+{% assign book = page.url | split: '/'  %}
+{% assign newpath = page.url | remove_first: '/' | remove_first: book[1] %}
+{% assign redir_to = 'https://' | append: book[1] | append: '.' | append: site.new_domain | append: newpath %}
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Redirecting...</title>
+  <title {{ book }} {{ newpath }}>Redirecting...</title>
   <link rel="canonical" href="{{ redir_to }}"/>
   <meta http-equiv="refresh" content="0;url={{ redir_to }}" />
 </head>
